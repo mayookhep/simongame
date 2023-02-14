@@ -38,7 +38,7 @@ function nextSequence() {
 }
 function playsound(name) {
 
-    var audioclicked = new Audio("sounds/" + name + ".mp3");
+    var audioclicked = new Audio(name + ".mp3");
     audioclicked.play();
 }
 function animatePress(currentColour) {
